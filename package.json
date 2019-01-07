@@ -1,0 +1,22 @@
+{
+  "name": "typechain",
+  "version": "1.0.0",
+  "description": "Learning Typescript by making a Blockchain with it",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/albatroscom/typechain.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "global": "^4.3.2",
+    "typescript": "^3.2.2"
+  },
+  "devDependencies": {
+    "tsc-watch": "^1.0.31"
+  },
+  "scripts": {
+    "start": "tsc-watch --onSuccess \" node dist/index.js\" "
+  }
+}
